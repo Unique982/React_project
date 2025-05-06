@@ -1,0 +1,23 @@
+//step 1: instal vite
+npm  create vite@latest
+
+// step 2: Ok to proceed? (y)
+y
+
+//Project name:
+./ same folder create project
+
+ // step 4 :Current directory is not empty. Please choose how to proceed:
+│  ● Cancel operation
+│  ○ Remove existing files and continue
+│  ○ Ignore files and continue
+
+// ◇  Package name:
+│  react
+
+//◇  Select a variant:
+│  JavaScript
+
+// npm install
+// npm run dev
+
