@@ -1,4 +1,6 @@
 import { BrowserRouter,Routes,Route} from "react-router-dom"
+import Home from "./Home"
+import Contact from "./Contact"
 
 function App() {
 
@@ -7,16 +9,9 @@ function App() {
     <>
   <BrowserRouter>
   <Routes>
-    <Route path="/" element ={<h1>Welcome Home page</h1>}/>
+    <Route path="/" element ={<Home/>}/>
     <Route path="/about" element={<h1>Welcome About page</h1>}/>
-    <Route path="/contact" element ={<div>
-      <h1>Contact page</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus magnam eaque sapiente recusandae dolore excepturi quia facere ut sit odio.
-      </p>
-      <p>Email:testinggmail.com</p>
-
-
-    </div>}/>
+    <Route path="/contact" element ={<Contact/>}/>
   </Routes>
   
   </BrowserRouter>
